@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mohit Vanjara — Portfolio</title>
+  <meta name="description" content="Portfolio of Mohit Vanjara — BCA student. Projects, skills, experience and contact for recruiters." />
+
+  <style>
+    :root{--bg:#ffffff;--text:#0b1220;--muted:#6b7280;--accent:#0ea5a4}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial;background:var(--bg);color:var(--text);line-height:1.5}
+    .wrap{max-width:760px;margin:36px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    .photo{width:100px;height:100px;border-radius:50%;overflow:hidden;flex:0 0 100px}
+    .photo img{width:100%;height:100%;object-fit:cover;border-radius:50%;box-shadow:0 6px 18px rgba(14,165,164,0.12);border:2px solid rgba(14,165,164,0.08)}
+    h1{margin:0;font-size:24px}
+    p.role{margin:6px 0;color:var(--muted)}
+
+    nav{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+    nav a{color:var(--accent);text-decoration:none;font-weight:600;font-size:13px}
+
+    section{margin-top:20px;padding:18px;border-radius:8px;background:#fbfcfd;border:1px solid #eef3f3}
+    section h2{margin-top:0;font-size:18px}
+    .muted{color:var(--muted);font-size:14px}
+
+    .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .skill{background:#fff;padding:8px 10px;border-radius:6px;border:1px solid #eef3f3;font-weight:600;font-size:13px}
+
+    .project,.experience-item,.education-item{padding:12px;border-radius:6px;background:white;border:1px solid #eef3f3;margin-top:10px}
+    .project strong,.experience-item strong,.education-item strong{display:block}
+
+    .contact{display:flex;flex-direction:column;gap:8px}
+    .contact a{color:var(--accent);font-weight:600}
+
+    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+
+    @media(max-width:600px){.wrap{padding:16px}.photo{width:80px;height:80px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="photo"><img src="assets/profile.jpg" alt="Mohit Vanjara"></div>
+      <div>
+        <h1>Mohit Vanjara</h1>
+        <div class="role">BCA Student — Sutex College · Amroli, Surat</div>
+        <div class="muted">Open to internships · Available for remote/part‑time roles</div>
+      </div>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+      <h2>About</h2>
+      <p class="muted">Motivated BCA student with practical experience in customer service and machine operation. Strong problem‑solving and teamwork skills, with interest in software, data and automation. Seeking internships and entry‑level roles to apply and grow technical skills.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">HTML & CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">Excel (entry level)</div>
+        <div class="skill">Data analysis basics</div>
+      </div>
+      <div style="margin-top:10px" class="muted">Certificates: Graphic design fundamentals · SEO for beginners · Machine learning using Python · Intro to Data Analysis</div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <strong>Personal Portfolio Website</strong>
+        <small>Responsive personal site · HTML, CSS · Deployed on GitHub Pages</small>
+        <div class="muted" style="margin-top:8px">Clear, accessible layout to showcase resume, projects and contact information.</div>
+      </div>
+      <div class="project">
+        <strong>Customer Service Tracker (Demo)</strong>
+        <small>Python · Excel</small>
+        <div class="muted" style="margin-top:8px">Simple tool for logging interactions and tracking resolution status. Focus on usability and reporting.</div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <strong>Team Member — Domino's (New Farm)</strong>
+        <div class="muted">Jul 2023 – Aug 2024 · Customer service, cash handling, team operations.<br>Reference: Ryan — +61 417 138 462</div>
+      </div>
+      <div class="experience-item">
+        <strong>Machine Operator — Resitech Resins Pvt. Ltd.</strong>
+        <div class="muted">Jul 2023 – Aug 2024 · Operated and monitored machinery, safety compliance.<br>Reference: James — +61 431 457 949</div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="education-item">
+        <strong>Bachelor of Computer Applications (BCA)</strong>
+        <div class="muted">Sutex College, Surat · 2023 – Present</div>
+      </div>
+      <div class="education-item">
+        <strong>HSC — Higher Secondary Certificate</strong>
+        <div class="muted">MBV School, Surat · 2022 · 81%</div>
+      </div>
+      <div class="education-item">
+        <strong>SSC — Secondary School Certificate</strong>
+        <div class="muted">MBV School, Surat · 2020 · 70%</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact">
+        <div>Phone: <a href="tel:+919023856273">+91 90238 56273</a></div>
+        <div>Email: <a href="mailto:mohitvanjara78@gmail.com">mohitvanjara78@gmail.com</a></div>
+        <div class="muted">Languages: English · Hindi · Gujarati</div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Mohit Vanjara — <a href="assets/resume.pdf" download>Download resume</a>
+    </footer>
+  </main>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
